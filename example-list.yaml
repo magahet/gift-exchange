@@ -1,0 +1,26 @@
+---
+- name: Alice
+  email: john@example.com
+  family:
+    - Bob
+- name: Bob
+  email: bob@example.com
+  family:
+    - Alice
+- name: Carl
+  email: carl@example.com
+  family:
+    - Dan
+    - Eve
+- name: Dan
+  email: dan@example.com
+  family: 
+    - Carl
+    - Eve
+- name: Eve
+  email: eve@example.com
+  family: 
+    - Carl
+    - Dan
+- name: Fred
+  email: fred@example.com

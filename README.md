@@ -7,6 +7,10 @@ The only implemented conflict check is that no one should be assigned a member o
 
 Can email each person with their assignment.
 
+-d and -e are needed to send emails to sender. -d alone will print names.
+
+If you have 2-factor auth enabled for gmail, you need to setup and use an app password.
+
 
 ## Usage
 
